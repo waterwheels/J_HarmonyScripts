@@ -4,7 +4,11 @@
 
 // 	This script opens a file dialog where the user can select an image
 //	to brute-force replace all texture colour pots with the selected
-//	image
+//	image.
+
+// It was used in a situation where a production wanted to change the
+// pencil texture used in their scenes, but I couldn't rely on the 
+// names of the textures being consistent
 
 function changePencilTextures() {
 
